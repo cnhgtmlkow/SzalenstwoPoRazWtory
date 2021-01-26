@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.ib.Controller">
+   <children>
+      <Button fx:id="rozdanie" layoutX="57.0" layoutY="204.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="55.0" text="Rozdanie" />
+      <Label fx:id="karta11" layoutX="130.0" layoutY="30.0" prefHeight="42.0" prefWidth="33.0" text="Karta1">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <HBox layoutX="75.0" layoutY="225.0" prefHeight="100.0" prefWidth="200.0" />
+   </children>
+</AnchorPane>
